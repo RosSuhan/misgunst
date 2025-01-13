@@ -1,0 +1,124 @@
+.aboutSection {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 4rem 0;
+}
+
+.aboutSectionArticle {
+    /* background-color: red; */
+    width: 80%;
+}
+
+.aboutSectionHeading {
+    width: 100%;
+    /* background-color: green; */
+    color: var(--darkGreen);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.aboutSectionParagraph {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.accommOptionsSection {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsBlock {
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+
+.accommBtn {
+    background-color: var(--darkGreen);
+    border: none;
+    padding: 2rem 0;
+    border-radius: 5px;
+}
+
+.buttonLink {
+    width: 100%;
+    padding: 2rem 3rem;
+    color: var(--lightGold);
+    /* background-color: green; */
+}
+
+.accommArticle {
+    width: 90%;
+    padding-bottom: 3rem;
+    border-bottom: .1px var(--darkGold) solid;
+}
+
+.accommArticle:last-child {
+    border-bottom: none;
+}
+
+.accommRoomName {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: var(--darkGreen);
+}
+
+.accommRoomMainInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    /* background-color: red; */
+}
+
+.accommRoomMainInfo:last-child {
+    padding-bottom: 3rem;
+    /* background-color: purple; */
+}
+
+.accommRoomInfoBlock {
+    width: 50%;
+    height: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.accommRoomInfo {
+    width: 100%;
+    line-height: 1.6;
+}
+
+.moreInfoBtn {
+    width: 30%;
+    background-color: var(--darkGreen);
+    padding: 2rem 4rem;
+    text-align: center;
+    color: var(--lightGold);
+    border-radius: 5px;
+}
+
+.accommMainImage {
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.accommImage {
+    border-radius: 5px;
+}

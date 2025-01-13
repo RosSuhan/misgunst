@@ -1,0 +1,164 @@
+/* responsive1 */
+@media (max-width:1700px) {
+    
+}
+
+/* responsive2 */
+@media (max-width:1500px) {
+    
+}
+
+/* responsive3 */
+@media (max-width:1359px) {
+    .headerBlock {
+        min-height: 25svh;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+}
+
+/* responsive4 */
+@media (max-width:1249px) {
+    
+}
+
+/* responsive5 */
+@media (max-width: 1024px) {
+    .headerLogo {
+        width: 200px;
+    }
+}
+/* responsive6 */
+@media (max-width:911px) {
+    .headerLogo {
+        width: 150px;
+    }
+
+    .bannerRowImage{
+        min-width: calc(100%/5);
+        max-height: 300px;
+        /* object-fit: cover; */
+        overflow-x: hidden;
+    }
+
+    .headerBlock {
+        min-height: 20svh;
+    }
+
+    .headerBlockHeading {
+        font-size: 6rem;
+    }
+}
+
+/* responsive7 */
+@media (max-width:768px) {
+    .navList {
+        display: none;
+    }
+
+    .headerNavBlock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hide {
+        display: initial;
+        color: var(--darkGold);
+    }
+
+    .headerNavBlock {
+        /* display: none; */
+        width: 20%;
+    }
+
+    .headerLogoBlock {
+        width: 70%;
+        padding-left: 2rem;
+    }
+
+    .column1 {
+        display: none;
+    }
+
+    .mobileDropdownMenuBlock {
+        background-color: #fff;
+        top: 85px;
+    }
+
+    .mobileDropdownMenuBlock {
+        /* display: initial; */
+        position: absolute;
+        width: 100%;
+        /* background-color: aqua; */
+        top: 88px;
+    }
+
+    .mobileNavList {
+        width: 100%;
+        background-color: var(--darkbackground);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobileNavItem {
+        padding: 1rem 0;
+    }
+}
+
+/* responsive8 */
+@media (max-width:639px) {
+    .headerLogo {
+        height: 70px;
+    }
+
+    /* .headerBlock {
+        min-height: 20svh;
+    } */
+
+    .headerBlockHeading {
+        font-size: 4.5rem;
+    }
+}
+
+/* responsive9 */
+@media (max-width:430px) {
+    .headerNavBlock {
+        width: 15%;
+    }
+
+    .headerLogoBlock {
+        width: 70%;
+    }
+
+    .headerLogo {
+        width: 150px;
+        height: auto;
+    }
+
+    .mobileDropdownMenuBlock {
+        top: 56px;
+    }
+
+    .headerBlock {
+        min-height: 15svh;
+    }
+
+    .headerBlockHeading {
+        font-size: 3rem;
+    }
+
+    .bannerRowImage{
+        min-width: calc(100%/3);
+        max-height: 300px;
+        /* object-fit: cover; */
+        /* overflow-x: hidden; */
+    }
+}

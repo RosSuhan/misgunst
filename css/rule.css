@@ -1,0 +1,25 @@
+.headerBlockHeading {
+    font-size: 8rem;
+}
+
+.rules-section {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.sectionHeading {
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.rule-list {
+    width: 80%;
+}
+
+.rule-item {
+    /* background-color: purple; */
+    padding: .5rem 0;
+}

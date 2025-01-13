@@ -1,0 +1,28 @@
+.coming-soon-section {
+    position: relative; 
+    background-image: url(/assets/MISGUNST-WEBSITE-hero-photo-01.png); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100dvw; 
+    height: 135svh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end;
+}
+
+.coming-soon-heading {
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    text-align: center; 
+    color: #fff; 
+    text-shadow: #000 5px 5px;
+    text-align: center; 
+    font-family: var(--logofont); 
+    font-size: 7rem;
+    font-weight: 300; 
+    margin: 0; 
+    padding: 0; 
+    /* transform: translateY(-30rem); */
+}

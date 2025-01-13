@@ -1,0 +1,41 @@
+.pageHeading {
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.thankYou-section {
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+    row-gap: 4rem;
+}
+
+.thankYou-message {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.buttonsBlock {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.accommBtn {
+    border: none;
+    background-color: transparent;
+}
+
+.buttonLink {
+    padding: 2rem 4rem;
+    background-color: var(--darkGreen);
+    color: var(--lightGold);
+    border-radius: 10px;
+}

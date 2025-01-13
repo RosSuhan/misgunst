@@ -1,0 +1,57 @@
+.accomm-amnities-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accomm-amnities-heading,
+.accomm-info-heading {
+    width: 90%;
+    font-size: 3rem;
+}
+
+.seperation-line {
+    width: 90%;
+    color: #aeacac;
+}
+
+.accomm-amnities-list {
+    width: 90%;
+    list-style: none;
+    float: left;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+}
+
+.accomm-amnities-item {
+    /* background-color: pink; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.accomm-info-section {
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.accomm-info-subheading {
+    width: 90%;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+.accomm-info {
+    width: 90%;
+    line-height: 1.6;
+    margin-top: .5rem;
+}

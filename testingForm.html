@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4x4 Adventures | Misgunst Vleesbaai 4x4 Farmstay</title>
+        <!-- Tags for Browser rendering -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- meta images -->
+        <link type="image/x-icon" rel="icon" href="favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-32x32.png">
+        
+        <!-- styles -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/activities.css">
+        <link rel="stylesheet" href="/css/gallery.css">
+        <link rel="stylesheet" href="/css/contact.css">
+        <link rel="stylesheet" href="/css/mobileheader.css">
+        <link rel="stylesheet" href="/css/mobileActivities.css">
+        <link rel="stylesheet" href="/css/mobilegallery.css">
+        <link rel="stylesheet" href="/css/mobilefooter.css">
+    
+        <!-- SEO Meta tags -->
+        <meta name="description" content="Enjoy a farmstay in Vleesbaai, Mossel Bay, with sea views, a thrilling 4x4 course, and sandboarding. Perfect for families and 4x4 enthusiasts. Pet-friendly and just minutes from Mossel Bay. High-season bookings now open!">
+        <meta name="robots" content="index, follow">
+    
+        <!-- Open Graph for Social Sharing -->
+        <meta property="og:title" content="Misgunst Vleesbaai 4x4 Farmstay" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://misgunstfarm.co.za" />
+        <meta property="og:image" content="https://misgunstfarm.co.za/assets/MISGUNST-logo.png" />
+        <meta property="og:site_name" content="Misgunst Vleesbaai 4x4 and Farmstay">
+        <meta property="og:locale" content="en_ZA">
+        <meta name="og:description" content="Enjoy a farmstay in Vleesbaai, Mossel Bay, with sea views, a thrilling 4x4 course, and sandboarding. Perfect for families and 4x4 enthusiasts. Pet-friendly and just minutes from Mossel Bay. High-season bookings now open!">
+
+        <!-- Scripts -->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "website",
+                "name": "Misgunst Vleesbaai 4x4 Farmstay",
+                "alternateName" : ["Misgunst", "Vleesbaai", "Vleesbaai 4x4", "Misgunst Accommodation"],
+                "url": "https://misgunstfarm.co.za",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mossel Bay, South Africa",
+                    "postalCode": "6500",
+                    "streetAddress": "Mossel Bay, South Africa"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://query.example.com/search?q={search_term_string}"},
+                    "query-input": "required name=search_term_string"
+                }
+                "email": "mailto:vleesbaai4x4@misgunstfarm.co.za",
+                "image": "https://misgunstfarm.co.za/assets/MISGUNST-logo.png",
+                "telephone": "+27 84 588 7963"
+            }
+        </script>
+
+        <script>
+            {
+                const load = () => document.querySelectorAll("script[data-type='lazy']").forEach(el => el.src = el.dataset.src);
+                const timer = setTimeout(load, 5000);
+                const trigger = () => {
+                    load();
+                    clearTimeout(timer);
+                };
+                ["mouseover","keydown","touchmove","touchstart"].forEach(e => window.addEventListener(e, trigger, {passive: true, once: true}));
+            }
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </head>
+    <body>
+        <header id="header">
+            <div class="headerNavBlock column1">
+                <ul class="navList">
+                    <li class="navItem"><a href="/index.html#accommodation" title="Accommodation" class="navLink">Accommodation</a></li>
+                    <!-- <li class="navItem"><a href="#" title="Events" class="navLink">Events</a></li> -->
+                    <li class="navItem"><a href="/things-to-do.html" title="Things To Do" class="navLink">Things To Do</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="headerLogoBlock">
+                <img src="/assets/MISGUNST-logo.png" alt="Misgunst Vleesbaai 4x4 & Farmstay Logo" width="250" height="100" class="headerLogo">
+            </a>
+            <div class="headerNavBlock">
+                <ul class="navList">
+                    <li class="navItem"><a href="/about-us.html" title="" class="navLink">About Us</a></li>
+                    <!-- <li class="navItem"><a href="gallery.html" title="Gallery" class="navLink">Gallery</a></li> -->
+                    <li class="navItem"><a href="/contact-us.html" title="Contact Us" class="navLink">Contact Us</a></li>
+                </ul>
+                <input type="checkbox" id="menu-bar" onclick="mobileMenu()">
+                <label for="menu-bar" id="menuLable" class="hide">Menu</label>
+            </div>
+           
+            <div class="mobileDropdownMenuBlock" id="mobileDropdownMenuBlock">
+                <ul class="mobileNavList">
+                    <li class="mobileNavItem"><a href="/home.html#accommodation" title="Accommodation" class="navLink">Accommodation</a></li>
+                    <!-- <li class="mobileNavItem"><a href="#" title="Events" class="navLink">Events</a></li> -->
+                    <li class="mobileNavItem"><a href="/things-to-do.html" title="Things To Do" class="navLink">Things To Do</a></li>
+                    <li class="mobileNavItem"><a href="/contact-us.html" title="Contact Us" class="navLink">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="hero" id="hero">
+            <div class="headerBlock">
+                <h1 class="headerBlockHeading">4x4 Adventures</h1>
+                
+            </div>
+            <section class="bannerRow">
+                <img src="/assets/4x4dunes/dune1.jpg" alt="Misgunst Die Huisie Accommodation Kitchen" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/fleetOfVisitors.jpg" alt="Misgunst Die Huisie Accommodation Living Room" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/group1.jpg" alt="Misgunst Luv Shack Accommodation Deck View" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/track1.jpg" alt="Misgunst Luv Shack Accommodation View" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/dune2.jpg" alt="Misgunst Camping Accommodation View" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/tyres.jpg" alt="Misgunst Camping Accommodation View" class="bannerRowImage accommImage">
+                <img src="/assets/4x4dunes/track7.jpg" alt="Misgunst Camping Accommodation Cabin" class="bannerRowImage accommImage">
+            </section>
+        </div>
+
+        <main>
+            <section class="activitySection">
+                <article class="activitySinglePageArticle">
+                    <p class="activityInfo">
+                        The Vleesbaai 4x4 Dune Route is a must-visit for off-road enthusiasts, offering a thrilling 12 km circular route near Mossel Bay on the Garden Route. Known for its breathtaking coastal views and pristine sand dunes, this track provides a unique opportunity to hone your dune and deep sand driving skills in a stunning environment. With no encroaching bushes to scratch your vehicle and well-marked routes that shift with the wind, the experience is both challenging and rewarding.
+                    </p>
+                    <p class="activityInfo">
+                        Whether you're there for the thrill or to enjoy a family outing, the route offers plenty of play areas and picnic spots, including access to a beautiful beach. Tire pressure management is crucial, especially when tackling the famous "Dune"—0.8 bars is recommended for the best chance of success.
+                    </p>
+                    <p class="activityInfo">
+                        You won't be left stranded, as owner Riekie van Rensburg is always just a call away to assist if needed. Vleesbaai 4x4 is one of the few coastal trails that allows dune driving so close to the beach, making it an unforgettable adventure.
+                    </p>
+                </article>
+            </section>
+
+            <section class="gallerySection">
+                <img src="/assets/4x4dunes/dune9.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/track1.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/group4.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/track2.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/track4.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/dune8.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/track5.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/track4.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/group3.jpg" width="200" height="200" alt="">
+                <img src="/assets/4x4dunes/group2.jpg" width="200" height="200" alt="">
+            </section>
+
+            <section class="contactFormSection">
+                
+                <form name="4x4Bookings" id="4x4Bookings" class="contactForm">
+                    <h2 class="formHeading">4x4 Booking Form:</h2>
+
+                    <div class="formRow">
+                        <label for="date" class="formLabel">When you would you like to 4x4?</label>
+                        <input min="2024-12-14" max="2025-01-02" id="date" name="date" type="date" placeholder="Date" required class="formInput">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="time" class="formLabel">Time?</label>
+                        <select name="time" id="time" required class="formInput">
+                            <option value="07:30">07:30</option>
+                            <option value="09:30">09:30</option>
+                            <option value="11:30">11:30</option>
+                            <option value="13:00">13:00</option>
+                        </select>
+                    </div>
+
+                    <div class="formRow">
+                        <label for="name" class="formLabel">Contact Person</label>
+                        <input id="name" name="name" type="text" placeholder="Full Name" required class="formInput">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="surname" class="formLabel">Surname:</label>
+                        <input type="text" name="surname" id="surname" required class="formInput">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="identity" class="formLabel">Passport or ID Number:</label>
+                        <input type="text" name="identity" id="identity" required class="formInput">
+                    </div>
+                    
+                    <div class="formRow">
+                        <label for="address" class="formLabel">Address:</label>
+                        <input type="text" name="address" id="address" class="formInput">
+                    </div>
+                    
+                    <div class="formRow">
+                        <label for="cellNumber" class="formLabel">Cell Number:</label>
+                        <input type="tel" name="cellNumber" id="cellNumber" required class="formInput">
+                    </div>
+
+                    <div class="formRow">
+                        <label for="email" class="formLabel">Email Address:</label>
+                        <input type="email" name="email" id="email"  class="formInput">
+                    </div>
+
+                    <fieldset class="carRow">
+                        <legend>Vehicle details</legend>
+                        <div class="formRow">
+                            <label for="makeOfCar" class="formLabel">Make of Car</label>
+                            <input type="text" name="makeOfCar" id="makeOfCar"  class="formInput">
+                        </div>
+                
+                        <div class="formRow">
+                            <label for="yearModel" class="formLabel">Year Model</label>
+                            <input type="text" name="yearModel" id="yearModel"  class="formInput">
+                        </div>
+
+                        <div class="formRow">
+                            <label for="carColor" class="formLabel">Color of Car</label>
+                            <input type="text" name="carColor" id="carColor"  class="formInput">
+                        </div>
+
+                        <div class="formRow">
+                            <label for="numberPlate" class="formLabel">Number Plate</label>
+                            <input type="text" name="numberPlate" id="numberPlate"  class="formInput">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="indemnity">
+                        <legend>
+                            Indemnity Agreement
+                        </legend>
+            
+                        <p>
+                            Whereas the PROPERTY OWNER is the OWNER of the following PROPERTY:
+                        </p>
+                        <ul>
+                            <li>Portion 2 of the farm Misgunst at The Gouritz River No. 257</li>
+                            <li>Portion 44 of the farm Misgunst at The Gouritz River No. 257</li>
+                        </ul>
+            
+                        <p>
+                            And whereas the above-mentioned INDIVIDUAL wishes to participate in one or more of the following activities on the specified property:
+                        </p>
+                        <ol>
+                            <li>Use of 4x4 vehicles, 4x4 motorcycles, or other self-propelled vehicles;</li>
+                            <li>Sandboarding or sliding down sand dunes using flat objects (boards or skateboards);</li>
+                            <li>Paragliding above sand dunes (with parachutes).</li>
+                        </ol>
+            
+                        <p>
+                            Now, therefore, the above-named INDIVIDUAL irrevocably agrees to indemnify and hold harmless the PROPERTY OWNER against any claims, liabilities, damages, costs, and expenses arising out of or in connection with the aforementioned activities, including but not limited to the following:
+                        </p>
+                        <ol>
+                            <li>Damage to Vehicles: This includes any damage to bodywork, chassis, tires, engines, or any other parts of vehicles used on the property.</li>
+                            <li>Personal Injuries: This covers any injuries sustained by persons, including minors, under the supervision of the INDIVIDUAL, as well as injuries to any other participants or guests accompanying the INDIVIDUAL on the activity.</li>
+                            <li>Legal Consequences: The INDIVIDUAL agrees to accept full responsibility and liability for any legal consequences or prosecutions resulting from movement of vehicles beyond the specifically designated and physically identified areas on the property, especially movements within protected primary dunes or below the high-water mark on the beach.</li>
+                            <li>Accidents Involving Wildlife: The INDIVIDUAL assumes all risk and liability for any accidents involving insects, snakes, or other wildlife encountered on the property.</li>
+                            <li>Unspecified Damages or Injuries: The INDIVIDUAL acknowledges and waives any claim for injuries or damages not specifically mentioned above but which may occur during the activities.</li>
+                        </ol>
+            
+                        <h3>ADDENDUM TO INDEMNITY AGREEMENT</h3>
+            
+                        <p>
+                            The INDIVIDUAL further confirms and accepts that all routes on the properties specified in this Indemnity Agreement:
+                        </p>
+                        <ol>
+                            <li>Must be used in an eco-sensitive manner;</li>
+                            <li>Shall not be used as a racing track or in competition with other vehicles or participants.</li>
+                        </ol>
+            
+                        <h3>STRICT PROHIBITION ON ALCOHOL</h3>
+                        <p>
+                            No alcohol may be consumed by the driver of any vehicle or their passengers while on the route.
+                        </p>
+            
+                        <div class="checkbox-block">
+                            <input type="checkbox" name="indemnity" id="indemnity" class="checkbox" required>
+                            <label for="indemnity">
+                                By ticking this box, the INDIVIDUAL agrees to indemnify the PROPERTY OWNER for any such occurrences.
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <div class="btn-block">
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                    
+                </form>
+
+                <h2 id="message"></h2>
+
+                <div id="status"></div>
+
+                <!-- <div class="tableContainer">
+                    <button class="btn">Click Me</button>
+                    <div class="output"></div>
+                </div> -->
+            </section>
+        </main>
+
+        <footer>
+            <div class="footerTopRow">
+                <div class="footerTopRowContent">
+                    <h3 class="footerTopRowContentHeading">During your stay</h3>
+                    <p class="footerTopRowContentQuote">Come and binge watch a good series of nature</p>
+                    <!-- <p class="footerTopRowContentParagraph">
+                        We are conveniently situated close to beaches and various activities for the whole family. Let us create the space for a memorable nature experience from 4x4, family time around the camping fire and fun on the beach.
+                    </p> -->
+                </div>
+            </div>
+            <div class="footerBottomRow">
+                <div class="footerBottomColumn">
+                    <img src="/assets/MISGUNST-LONG-logo-VECTORIZED-yellow-new.png" alt="Misgunst Vleesbaai 4x4 & Farmstay Logo" width="500" class="footerLogo">
+                    <ul class="footerNavList">
+                        <li class="footerNavItem"><a href="/index.html#accommodation" title="Accommodation" class="footer-navLink">Accommodation</a></li>
+                        <!-- <li class="footerNavItem"><a href="#" title="Events" class="navLink">Events</a></li> -->
+                        <li class="footerNavItem"><a href="/things-to-do.html" title="Things To Do" class="footer-navLink">Things To Do</a></li>
+                    </ul>
+                </div>
+                <div class="footerBottomColumn">
+                    <h3 class="footerBottomColumnHeading">Contact Us</h3>
+                    <a href="tel:+27845887963" title="Contact Phone Number" class="footerBottomColumnLink">084 588 7963</a>
+                    <a href="mailto:vleesbaai4x4@misgunstfarm.co.za" title="Contact Email" class="footerBottomColumnLink">vleesbaai4x4@misgunstfarm.co.za</a>
+                </div>
+            </div>
+            <div class="tc-row">
+                <span class="lastRow">All Rights Reserved @ 2024 - Misgunst Vleesbaai 4x4 & Farmstay. Proudly build by Hartland Digital</span>
+            </div>
+        </footer>
+
+
+        <!-- <script src="/bookings/testbooking.js"></script> -->
+        <script src="/js-folder/testing.js"></script>
+         <!-- <script src="js-folder/gpt.js"></script> -->
+        
+        
+    </body>
+</html>
